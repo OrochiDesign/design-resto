@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>practicas design</title>
+    <link rel="stylesheet" href="css/minificado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <section class="header">
+        <a href="#" class="logo"><i class="fas fa-power-off"></i>resto design.</a>
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#about">nosotros</a>
+            <a href="#food">comidas</a>
+            <a href="#gallery">galeria</a>
+            <a href="#menu">menu</a>
+            <a href="#order">su orden</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    
+    <section class="home" id="home">
+       <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+             <div class="swiper-slide slide">
+                <div class="content">
+                   <span>comida excepcional</span>
+                   <h3>cocina deliciosa</h3>
+                   <a href="#" class="btn">get started</a>
+                </div>
+             </div>
+             <div class="swiper-slide slide">
+                <div class="content">
+                   <span>comida excepcional</span>
+                   <h3>momento de la mañana</h3>
+                   <a href="#" class="btn">get started</a>
+                </div>
+             </div>
+             <div class="swiper-slide slide">
+                <div class="content">
+                   <span>comida excepcional</span>
+                   <h3>cocina autentica</h3>
+                   <a href="#" class="btn">get started</a>
+                </div>
+             </div>
+          </div>
+          <div class="swiper-pagination"></div>
+       </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="image">
+            <img src="img/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="title">Bienvenidos a nuestro restaurante.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus necessitatibus vero id eius nemo distinctio veritatis commodi, saepe ullam libero similique expedita illo a autem ipsam sit. Velit, assumenda, dolorem.</p>
+            <a href="#" class="btn">leer más</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="img/about-icon-1.png" alt="">
+                    <h3>comida de calidad</h3>
+                </div>
+                <div class="icons">
+                    <img src="img/about-icon-2.png" alt="">
+                    <h3>tragos</h3>
+                </div>
+                <div class="icons">
+                    <img src="img/about-icon-3.png" alt="">
+                    <h3>los mejores chefs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="food" id="food">
+        <div class="heading">
+            <span>platos populares.</span>
+            <h3>nuestra deliciosa comida.</h3>
+        </div>
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="img/food-img-1.png" alt="">
+                    <h3>comida deliciosa.</h3>
+                    <div class="price">$800</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="img/food-img-2.png" alt="">
+                    <h3>comida deliciosa.</h3>
+                    <div class="price">$900</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="img/food-img-3.png" alt="">
+                    <h3>comida deliciosa.</h3>
+                    <div class="price">$750</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="img/food-img-4.png" alt="">
+                    <h3>comida deliciosa.</h3>
+                    <div class="price">$600</div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="img/food-img-5.png" alt="">
+                    <h3>comida deliciosa.</h3>
+                    <div class="price">$700</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <section class="food-preview-container">
+        <div id="close-preview" class="fas fa-times"></div>
+        <div class="food-preview" data-target="food-1">
+            <img src="img/food-img-1.png" alt="">
+            <h3>comida deliciosa.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat?</p>
+            <div class="price">$800</div>
+            <a href="#" class="btn">comprar</a>
+        </div>
+        <div class="food-preview" data-target="food-2">
+            <img src="img/food-img-2.png" alt="">
+            <h3>comida deliciosa.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat?</p>
+            <div class="price">$900</div>
+            <a href="#" class="btn">comprar</a>
+        </div>
+        <div class="food-preview" data-target="food-3">
+            <img src="img/food-img-3.png" alt="">
+            <h3>comida deliciosa.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat?</p>
+            <div class="price">$750</div>
+            <a href="#" class="btn">comprar</a>
+        </div>
+        <div class="food-preview" data-target="food-4">
+            <img src="img/food-img-4.png" alt="">
+            <h3>comida deliciosa.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat?</p>
+            <div class="price">$600</div>
+            <a href="#" class="btn">comprar</a>
+        </div>
+        <div class="food-preview" data-target="food-5">
+            <img src="img/food-img-5.png" alt="">
+            <h3>comida deliciosa.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fugiat?</p>
+            <div class="price">$700</div>
+            <a href="#" class="btn">comprar</a>
+        </div>
+    </section>
+    
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <span>nuestra galeria.</span>
+            <h3>nuestras historias no contadas.</h3>
+        </div>
+        <div class="gallery-container">
+            <a href="img/food-galler-img-1.jpg" class="box">
+                <img src="img/food-galler-img-1.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="img/food-galler-img-2.jpg" class="box">
+                <img src="img/food-galler-img-2.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="img/food-galler-img-3.jpg" class="box">
+                <img src="img/food-galler-img-3.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="img/food-galler-img-4.jpg" class="box">
+                <img src="img/food-galler-img-4.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="img/food-galler-img-5.jpg" class="box">
+                <img src="img/food-galler-img-5.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="img/food-galler-img-6.jpg" class="box">
+                <img src="img/food-galler-img-6.jpg" alt="">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+    </section>
+    
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>menú personalizado.</span>
+            <h3>nuestros platos populares.</h3>
+        </div>
+        <div class="swiper menu-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h3 class="title">desayuno</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>desayuno por la mañana</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">almuerzo</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicioso almuerzo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicioso almuerzo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicioso almuerzo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicioso almuerzo</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">cena</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>cena deliciosa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cena deliciosa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cena deliciosa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cena deliciosa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>cena deliciosa</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">tragos</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>tragos exclusivos</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <h3 class="title">postres</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>nuestros postres</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>nuestros postres</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>nuestros postres</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>nuestros postres</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>nuestros postres</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae.</p>
+                            </div>
+                            <div class="price">$500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <section class="order" id="order">
+        <div class="heading">
+            <span>ordenar ahora.</span>
+            <h3>entrega rápida a domicilio.</h3>
+        </div>
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>nombres</span>
+                        <input type="text" placeholder="su nombre">
+                    </div>
+                    <div class="inputBox">
+                        <span>comidas</span>
+                        <input type="text" placeholder="su platillo preferido">
+                    </div>
+                    <div class="inputBox">
+                        <span>detalles del pedido</span>
+                        <input type="text" placeholder="como quiere su pedido">
+                    </div>
+                    <div class="inputBox">
+                        <span>su dirección</span>
+                        <textarea placeholder="dejanos tu dirección" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <span>su numero</span>
+                        <input type="number" placeholder="su telefono">
+                    </div>
+                    <div class="inputBox">
+                        <span>cantidad</span>
+                        <input type="text" placeholder="cuantas porciones">
+                    </div>
+                    <div class="inputBox">
+                        <span>para cuando</span>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="inputBox">
+                        <span>nuestra dirección</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.323103389047!2d-60.68881398525329!3d-32.968876380343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac842fd61e49%3A0xbfec62122f3ce4f5!2sBv.%20Avellaneda%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1643654991201!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="pedir ahora" class="btn">
+        </form>
+    </section>
+    
+    <section class="blogs" id="blogs">
+        <div class="heading">
+            <span>nuestro blogs.</span>
+            <h3>nuestra última publicación.</h3>
+        </div>
+        <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-1.jpg" alt="">
+                        <span>hamburguesas</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-2.jpg" alt="">
+                        <span>sándwiches</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-3.jpg" alt="">
+                        <span>pollos asados</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-4.jpg" alt="">
+                        <span>helados</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-5.jpg" alt="">
+                        <span>pizzas</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/blog-img-6.jpg" alt="">
+                        <span>cafes</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>02/02/2022</a>
+                            <a href="#"><i class="fas fa-user"></i>orochi design</a>
+                        </div>
+                        <a href="#" class="title">blog design</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, in.</p>
+                        <a href="#" class="btn">leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>horario de apertura.</h3>
+                <p>07:00am a 13:00pm y de 17:00pm a 02:00am</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>telefono.</h3>
+                <p>+54 9 341 1234567</p>
+                <p>+54 9 341 9876543</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>correo.</h3>
+                <p>resto_design@gmail.com</p>
+                <p>resto_design@hotmail.com</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>estamos en.</h3>
+                <p>Av.Avellaneda 7777 Rosario.</p>
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
+        </div>
+        <div class="credit">diseñado por <span> &copy; Orochi Design </span> | todos los derechos reservados.</div>
+    </section>
+    
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+   
+   <script src="js/script.js"></script>
+</body>
+</html>
